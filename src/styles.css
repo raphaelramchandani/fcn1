@@ -1,0 +1,26 @@
+/* Default (for larger screens like desktop) */
+body {
+    font-size: 18px;
+}
+
+.header {
+    width: 100vw;
+    aspect-ratio: 16 9;
+    background-color: red;
+}
+
+/* Tablet-specific styles */
+@media (max-width: 1024px) {
+    body {
+        font-size: 17px;
+    }
+}
+
+/* Mobile-specific styles */
+@media (max-width: 768px) {
+    body {
+        font-size: 16px;
+        display: block;
+    }
+
+}
